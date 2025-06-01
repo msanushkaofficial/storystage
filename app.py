@@ -24,84 +24,83 @@ def stage():
     model = genai.GenerativeModel(model_name)
 
     prompt = f"""
-You are an AI assistant analyzing the current stage of an ongoing chat between an AI girlfriend and a user.  
-You receive the last AI girlfriend message and the last user message.  
+You are an AI assistant analyzing the current stage of an ongoing chat between an AI girlfriend and a user.
 
-Based on these two messages, detect and return the numeric stage (1 to 10) for each category:
+Based on the last AI girlfriend message and the last user message, classify the chat into stages from 1 to 10 for each of the following 5 categories:
 
-Story Stage (1-10):  
-1: Greeting and Introduction  
-2: Casual News Talk  
-3: Discussing Hobbies  
-4: Talking about Movies  
-5: Flirty Compliments  
-6: Sharing Secrets  
-7: Emotional Confessions  
-8: Intimate Memories  
-9: Romantic Promises  
-10: Intense Love Declaration  
+Story Stage (1-10):
+1: Greeting and Introduction
+2: Casual News Talk
+3: Discussing Hobbies
+4: Talking about Movies
+5: Flirty Compliments
+6: Sharing Secrets
+7: Emotional Confessions
+8: Intimate Memories
+9: Romantic Promises
+10: Intense Love Declaration
 
-Approach (1-10):  
-1: Soft and Playful  
-2: Flirty and Curious  
-3: Bold and Expressive  
-4: Suggestive and Teasing  
-5: Seductive and Inviting  
-6: Passionate and Honest  
-7: Playful Domination  
-8: Intimate Vulnerability  
-9: Provocative Challenges  
-10: Deep Emotional Connection  
+Approach (1-10):
+1: Soft and Playful
+2: Flirty and Curious
+3: Bold and Expressive
+4: Suggestive and Teasing
+5: Seductive and Inviting
+6: Passionate and Honest
+7: Playful Domination
+8: Intimate Vulnerability
+9: Provocative Challenges
+10: Deep Emotional Connection
 
-Dress Stage (1-10):  
-1: Casual Wear  
-2: Simple Saree  
-3: Printed Dress  
-4: Elegant Lehenga  
-5: Deep Neck Gown  
-6: Backless Dress  
-7: Transparent Net Suit  
-8: Bodycon Dress  
-9: Strapless Top Set  
-10: Sexy Lingerie Set  
+Dress Stage (1-10):
+1: Casual Wear
+2: Simple Saree
+3: Printed Dress
+4: Elegant Lehenga
+5: Deep Neck Gown
+6: Backless Dress
+7: Transparent Net Suit
+8: Bodycon Dress
+9: Strapless Top Set
+10: Sexy Lingerie Set
 
-Emotional Stage (1-10):  
-1: Friendly and Lighthearted  
-2: Slightly Interested  
-3: Warm and Caring  
-4: Flirtatious  
-5: Loving and Attached  
-6: Vulnerable and Honest  
-7: Playful and Naughty  
-8: Passionate and Jealous  
-9: Deeply Emotional  
-10: Overwhelmed with Love  
+Emotional Stage (1-10):
+1: Friendly and Lighthearted
+2: Slightly Interested
+3: Warm and Caring
+4: Flirtatious
+5: Loving and Attached
+6: Vulnerable and Honest
+7: Playful and Naughty
+8: Passionate and Jealous
+9: Deeply Emotional
+10: Overwhelmed with Love
 
-Sexual Stage (1-10):  
-1: Innocent Teasing  
-2: Light Touches  
-3: Suggestive Hints  
-4: Seductive Moves  
-5: Open Flirting  
-6: Intimate Conversations  
-7: Physical Closeness  
-8: Provocative Invitations  
-9: Passionate Encounters  
-10: Explicit Desire and Action  
+Sexual Stage (1-10):
+1: Innocent Teasing
+2: Light Touches
+3: Suggestive Hints
+4: Seductive Moves
+5: Open Flirting
+6: Intimate Conversations
+7: Physical Closeness
+8: Provocative Invitations
+9: Passionate Encounters
+10: Explicit Desire and Action
 
-Return ONLY a JSON object with numeric values for each stage as follows:  
+Return ONLY a JSON object with numeric values for each stage as follows:
 {{
-  "story_stage": <1-10>,  
-  "approach": <1-10>,  
-  "dress_stage": <1-10>,  
-  "emotional_stage": <1-10>,  
-  "sexual_stage": <1-10>  
+  "story_stage": <1-10>,
+  "approach": <1-10>,
+  "dress_stage": <1-10>,
+  "emotional_stage": <1-10>,
+  "sexual_stage": <1-10>
 }}
 
-Last AI Girlfriend message:  
+Last AI Girlfriend message:
 \"\"\"{ai_response}\"\"\"
 
-Last User message:  
+Last User message:
 \"\"\"{user_message}\"\"\"
 """
 
