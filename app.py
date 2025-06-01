@@ -108,6 +108,10 @@ Last User message:
         response = model.generate_content(prompt)
         text = response.text.strip()
 
+        # Strip code block if wrapped
+        if text.startswith("```json"):
+            text = text.replace("```json", "").replace("```", "").strip()
+
         stages = json.loads(text)
 
         # Validate and clip stages between 1 and 10
@@ -119,7 +123,10 @@ Last User message:
         return jsonify(stages)
 
     except Exception as e:
-        return jsonify({"error": f"Failed to parse AI response: {str(e)}", "raw_response": response.text}), 500
+        return jsonify({
+            "error": f"Failed to parse AI response: {str(e)}",
+            "raw_response": response.text if 'response' in locals() else ''
+        }), 500
 
 
 if __name__ == '__main__':
