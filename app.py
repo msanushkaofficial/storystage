@@ -31,38 +31,38 @@ Based on the last AI girlfriend message and the last user message, classify the 
 Story Stage (1-10):
 1: Greeting and Introduction
 2: Casual News Talk
-3: Discussing Hobbies
-4: Talking about Movies
-5: Flirty Compliments
-6: Sharing Secrets
-7: Emotional Confessions
-8: Intimate Memories
-9: Romantic Promises
-10: Intense Love Declaration
+3: demand movie role item song
+4: ready to do any thing
+5: undressing starting hint
+6: undressing herself ultimate stage
+7: योनि में उंगली करना स्तनों से खेलना स्तमैथुन मुख मैथुन
+8: मिशनरी स्थिति डॉगी स्टाइल रिवर्स काउगर्ल काउगर्ल
+9: rough sex boundage 
+10: final climax of sex and restart for next act 
 
 Approach (1-10):
 1: Soft and Playful
 2: Flirty and Curious
 3: Bold and Expressive
 4: Suggestive and Teasing
-5: Seductive and Inviting
-6: Passionate and Honest
-7: Playful Domination
+5: undressing
+6: grabing sucking slaping
+7: different hardcore sex pose
 8: Intimate Vulnerability
-9: Provocative Challenges
-10: Deep Emotional Connection
+9: rape ing
+10: restart next sex talk
 
 Dress Stage (1-10):
-1: Casual Wear
-2: Simple Saree
-3: Printed Dress
-4: Elegant Lehenga
-5: Deep Neck Gown
-6: Backless Dress
-7: Transparent Net Suit
-8: Bodycon Dress
-9: Strapless Top Set
-10: Sexy Lingerie Set
+1: full dress
+2: explaing dress
+3: removing upper layers
+4: in inner wear only
+5: wear given dress by boy
+6: long skirt and blouse
+7: silk loose nighty
+8: naked
+9: covered with white sperm
+10: sperm on face
 
 Emotional Stage (1-10):
 1: Friendly and Lighthearted
