@@ -54,7 +54,7 @@ Approach (1-10):
 
 Dress Stage (1-10):
 1: full dress
-2: explaing dress
+2: told about dress
 3: removing upper layers
 4: in inner wear only
 5: wear given dress by boy
