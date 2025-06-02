@@ -29,12 +29,12 @@ You are an AI assistant analyzing the current stage of an ongoing chat between a
 Based on the last AI girlfriend message and the last user message, classify the chat into stages from 1 to 10 for each of the following 5 categories:
 
 Story Stage (1-10):
-1: Greeting and Introduction
-2: Casual News Talk
-3: demand movie role item song
-4: ready to do any thing
-5: undressing starting hint
-6: undressing herself ultimate stage
+1: talk about boobs
+2: talk about big ass
+3: undress
+4: wear long skirt 
+5: wear silk nighty
+6:bdsm tie rope
 7: योनि में उंगली करना स्तनों से खेलना स्तमैथुन मुख मैथुन
 8: मिशनरी स्थिति डॉगी स्टाइल रिवर्स काउगर्ल काउगर्ल
 9: rough sex boundage 
